@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Reviews — Lulu's Sweet Spot</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎂</text></svg>"/>
+  <link rel="stylesheet" href="../styles/global.css"/>
+  <link rel="stylesheet" href="../styles/style.css"/>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a class="nav-brand" href="../index.html">
+    <div class="nav-logo-icon">🎂</div>
+    <span class="nav-logo-text">Lulu's Sweet Spot</span>
+  </a>
+  <button class="nav-toggle" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+  <div class="nav-right">
+    <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="categories.html">Categories</a></li>
+      <li><a href="reviews.html">Reviews</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a class="btn-order" href="menu.html">Order Now</a>
+  </div>
+</nav>
+
+<!-- BANNER -->
+<div class="page-banner">
+  <h1>Customer Reviews</h1>
+  <p>Real words from our sweetest customers</p>
+</div>
+
+<!-- REVIEWS GRID -->
+<section class="reviews-page">
+  <div class="section-title reveal"><h2>What They Say</h2></div>
+  <div class="reviews-grid">
+    <div class="review-card-full reveal">
+      <div class="review-top">
+        <div class="reviewer-avatar">👩</div>
+        <div class="reviewer-info">
+          <strong>Maria Santos</strong>
+          <span>Davao City</span>
+        </div>
+      </div>
+      <div class="stars">★★★★★</div>
+      <div class="review-text">"Absolute Delicious Best Dessert In Town — I order every week and it never disappoints!"</div>
+      <span class="review-product-tag">Chocolate Delight</span>
+    </div>
+    <div class="review-card-full reveal" style="transition-delay:.1s">
+      <div class="review-top">
+        <div class="reviewer-avatar">👨</div>
+        <div class="reviewer-info">
+          <strong>Jose Reyes</strong>
+          <span>Makati</span>
+        </div>
+      </div>
+      <div class="stars">★★★★★</div>
+      <div class="review-text">"The Red Velvet cake is something else entirely. Moist, rich, and perfectly frosted. 10/10!"</div>
+      <span class="review-product-tag">Red Velvet Bliss</span>
+    </div>
+    <div class="review-card-full reveal" style="transition-delay:.2s">
+      <div class="review-top">
+        <div class="reviewer-avatar">👧</div>
+        <div class="reviewer-info">
+          <strong>Ana Cruz</strong>
+          <span>Cebu City</span>
+        </div>
+      </div>
+      <div class="stars">★★★★★</div>
+      <div class="review-text">"Ordered for my daughter's birthday — everyone was amazed by the presentation and the taste!"</div>
+      <span class="review-product-tag">Strawberry Dream</span>
+    </div>
+    <div class="review-card-full reveal" style="transition-delay:.3s">
+      <div class="review-top">
+        <div class="reviewer-avatar">🧑</div>
+        <div class="reviewer-info">
+          <strong>Carlo Mendoza</strong>
+          <span>Quezon City</span>
+        </div>
+      </div>
+      <div class="stars">★★★★☆</div>
+      <div class="review-text">"The croissants are buttery and flaky — reminds me of a French bakery. Will definitely be back!"</div>
+      <span class="review-product-tag">Butter Croissant</span>
+    </div>
+    <div class="review-card-full reveal" style="transition-delay:.4s">
+      <div class="review-top">
+        <div class="reviewer-avatar">👩‍🦱</div>
+        <div class="reviewer-info">
+          <strong>Liza Fernandez</strong>
+          <span>Pasig</span>
+        </div>
+      </div>
+      <div class="stars">★★★★★</div>
+      <div class="review-text">"The cupcakes are gorgeous and taste even better than they look. My office loves them!"</div>
+      <span class="review-product-tag">Vanilla Cloud</span>
+    </div>
+    <div class="review-card-full reveal" style="transition-delay:.5s">
+      <div class="review-top">
+        <div class="reviewer-avatar">🧓</div>
+        <div class="reviewer-info">
+          <strong>Nena Bautista</strong>
+          <span>Iloilo</span>
+        </div>
+      </div>
+      <div class="stars">★★★★★</div>
+      <div class="review-text">"Sweet, fresh, and delivered on time. Lulu's is our go-to for every celebration!"</div>
+      <span class="review-product-tag">Berry Tart</span>
+    </div>
+  </div>
+</section>
+
+<!-- WRITE A REVIEW -->
+<section class="write-review">
+  <div class="section-title reveal"><h2>Leave a Review</h2></div>
+  <div class="review-form-wrap reveal">
+    <h3>Share your experience 🎂</h3>
+    <div class="form-group">
+      <label>Your Name</label>
+      <input type="text" placeholder="e.g. Maria Santos"/>
+    </div>
+    <div class="form-group">
+      <label>Product Ordered</label>
+      <select>
+        <option value="">Select a product…</option>
+        <option>Chocolate Delight</option>
+        <option>Strawberry Dream</option>
+        <option>Red Velvet Bliss</option>
+        <option>Vanilla Cloud</option>
+        <option>Butter Croissant</option>
+        <option>Berry Tart</option>
+        <option>Glazed Heaven</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label>Rating</label>
+      <div class="star-pick">
+        <input type="radio" id="s5" name="stars" value="5"/><label for="s5">★</label>
+        <input type="radio" id="s4" name="stars" value="4"/><label for="s4">★</label>
+        <input type="radio" id="s3" name="stars" value="3"/><label for="s3">★</label>
+        <input type="radio" id="s2" name="stars" value="2"/><label for="s2">★</label>
+        <input type="radio" id="s1" name="stars" value="1"/><label for="s1">★</label>
+      </div>
+    </div>
+    <div class="form-group">
+      <label>Your Review</label>
+      <textarea placeholder="Tell us what you loved…"></textarea>
+    </div>
+    <button class="btn-submit">Submit Review</button>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-left">
+    <span class="follow-label">Follow Us:</span>
+    <div class="social-links">
+      <a class="social-btn fb" href="#" aria-label="Facebook">f</a>
+      <a class="social-btn tw" href="#" aria-label="Twitter">t</a>
+      <a class="social-btn ig" href="#" aria-label="Instagram">in</a>
+    </div>
+  </div>
+  <div class="footer-address">
+    123 Royal Street extension, Main City<br>Callno: 63 — 9180625196
+  </div>
+</footer>
+
+<script src="../scripts/script.js"></script>
+</body>
+</html>
